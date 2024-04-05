@@ -1,15 +1,3 @@
-# Project Name.
-**0x10. HTTPS SSL**
-
-## Author's Details.
-Name: *Wendy Munyasi.*
-
-Email: *wendymunyasi@gmail.com*
-
-Tel:*+254707240068.*
-
-##  Requirements
-
 ### Bash Scripts
 *   Allowed editors: `vi`, `vim`, `emacs`.
 *   All your files will be interpreted/compiled on Ubuntu 20.04 LTS.
