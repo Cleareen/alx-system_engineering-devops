@@ -1,32 +1,45 @@
-Domain Name System (DNS):
+# Network Infrastructure Overview
+
+This repository provides an overview of fundamental components of network infrastructure.
+
+## Domain Name System (DNS)
 
 DNS serves as a hierarchical and decentralized naming system for identifying internet resources, associating domain names with numerical IP addresses. Operated through a query/response protocol, it facilitates efficient data retrieval.
-Transmission Control Protocol/Internet Protocol (TCP/IP):
+
+## Transmission Control Protocol/Internet Protocol (TCP/IP)
 
 TCP, a connection-oriented protocol, establishes reliable data transmission channels, while IP, at the network layer, facilitates packet routing across networks. TCP/IP constitutes the fundamental framework of internet communication.
-Firewall:
+
+## Firewall
 
 A firewall is a network security mechanism that regulates inbound and outbound traffic based on predetermined rules. By segregating trusted and untrusted networks, it fortifies network integrity and safeguards against unauthorized access.
-Hypertext Transfer Protocol Secure/Secure Sockets Layer (HTTPS/SSL):
+
+## Hypertext Transfer Protocol Secure/Secure Sockets Layer (HTTPS/SSL)
 
 HTTPS, an extension of HTTP, ensures secure data transmission over networks by employing SSL encryption. SSL, a cryptographic protocol, maintains data confidentiality, integrity, and authentication, thus enhancing communication security.
-Load Balancer:
+
+## Load Balancer
 
 A load balancer functions as a reverse proxy, evenly distributing network and application traffic across multiple servers. By optimizing resource allocation and mitigating server overload, it enhances system performance and reliability.
-Web Server:
+
+## Web Server
 
 A web server comprises software and hardware components that process HTTP/HTTPS requests and deliver web content. Acting upon client requests, it provides requested resources or generates error responses, thereby facilitating seamless web communication.
-Application Server:
+
+## Application Server
 
 An application server hosts and manages software applications, providing a runtime environment for their execution. Equipped with comprehensive service layers, it supports dynamic web page generation and implements advanced functionalities such as clustering and load balancing.
-Database:
+
+## Database
 
 A database constitutes an organized repository of electronically stored data, managed by a Database Management System (DBMS). DBMS software facilitates data capture, storage, retrieval, and analysis, thus enabling efficient data management and utilization.
-Additionally, in the context of entering a URL such as https://www.google.com:
 
-The browser translates the URL into a structured request message containing protocol, hostname, and optional port/path components.
-This request undergoes processing through intermediary systems like load balancers and firewalls before reaching the designated server.
-Upon receiving the request, the server executes appropriate actions, serving requested content or generating error responses as necessary.
-Finally, the browser interprets and presents the received content to the user in accordance with the HTTP response.
+## URL Processing
 
-- Eddie Mkansi
+When entering a URL such as https://www.google.com:
+- The browser translates the URL into a structured request message containing protocol, hostname, and optional port/path components.
+- This request undergoes processing through intermediary systems like load balancers and firewalls before reaching the designated server.
+- Upon receiving the request, the server executes appropriate actions, serving requested content or generating error responses as necessary.
+- Finally, the browser interprets and presents the received content to the user in accordance with the HTTP response.
+
+-Eddie Mkansi
