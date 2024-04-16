@@ -1,13 +1,5 @@
 # Project Name.
 **0x13. Firewall**
-
-## Author's Details.
-Name: *Wendy Munyasi.*
-
-Email: *wendymunyasi@gmail.com*
-
-Tel:*+254707240068.*
-
 ##  Requirements
 
 ### Bash Scripts
@@ -89,4 +81,4 @@ Learn about firewalls.
 
 ## Collaborate
 
-To collaborate, reach me through my email address wendymunyasi@gmail.com.
+To collaborate, reach me through my email address cleareen@gmail.com.
